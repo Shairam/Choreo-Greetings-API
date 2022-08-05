@@ -8,6 +8,10 @@
         "choreo_greetings_api": {
           "type": "object",
           "properties": {
+            "sample": {
+              "type": "string",
+              "description": ""
+            },
             "greeting": {
               "type": "string",
               "description": ""
