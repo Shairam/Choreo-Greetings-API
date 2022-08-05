@@ -1,1 +1,23 @@
-{"$schema":"http://json-schema.org/draft-07/schema#","type":"object","properties":{},"additionalProperties":false}
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "shai": {
+      "type": "object",
+      "properties": {
+        "choreo_greetings_api": {
+          "type": "object",
+          "properties": {
+            "greeting": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
