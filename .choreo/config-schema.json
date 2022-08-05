@@ -8,6 +8,10 @@
         "choreo_greetings_api": {
           "type": "object",
           "properties": {
+            "tokenX": {
+              "type": "integer",
+              "description": ""
+            },
             "sample": {
               "type": "string",
               "description": ""
