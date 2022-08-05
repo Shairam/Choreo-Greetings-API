@@ -1,6 +1,7 @@
 import ballerina/log;
 import ballerina/http;
 
+configurable int tokenX = 123;
 configurable string sample = "Hello World";
 # A service representing a network-accessible API
 # bound to port `9090`.
@@ -19,6 +20,7 @@ service / on new http:Listener(9090) {
             return error("name should not be empty!");
         }
         log:printInfo(sample);
+        log:printInfo(tokenX.toString());
         return "Hello, " + name + " " + greeting;
     }
 }
